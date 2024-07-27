@@ -1,4 +1,4 @@
-# [Free Automated LSI Keywords and Entity Extraction Tool]
+# [Free Automated LSI Keywords and Entity Extraction Tool](https://burstyai.com)
 
 ## How to Use This Tool
 
