@@ -31,3 +31,44 @@
 > A: The tool supports multiple languages. You can select your preferred language to ensure the content aligns with your audience's preferences.
 
 
+# Topical Authority Map & Blog Plan API
+
+This API endpoint facilitates the creation of SEO-optimized blog article plans by dividing a given niche into unique categories and generating several articles for each category.
+
+## Base URL
+
+`https://app.burstyai.com/burstyai/aiflows`
+
+## Endpoint
+
+### URL
+`/65e1cd00141fdc000195cb88/async_run`
+
+### Method
+`POST`
+
+## Description
+
+Creates a blog article plan by dividing a specified niche into unique categories and generating several articles for each category, ensuring all aspects of the topic are covered without repetition.
+
+## Request Body
+
+The request body must be a JSON object containing the following fields:
+
+- `params`: Object containing the required parameters.
+  - `5FzC4P###topic_keyword` (string, required): The main keyword or phrase representing the niche or topic to explore.
+  - `5FzC4P###amount_of_category` (string, required): The number of unique categories into which the main topic should be divided.
+  - `5FzC4P###amount_of_sub_category` (string, required): The number of blog articles planned for each category.
+  - `5FzC4P###language` (string, required): The language in which the categories and blog plans should be generated.
+
+### Example JSON Request
+
+```json
+{
+  "params": {
+    "5FzC4P###topic_keyword": "Artificial Intelligence",
+    "5FzC4P###amount_of_category": "10",
+    "5FzC4P###amount_of_sub_category": "5",
+    "5FzC4P###language": "english"
+  }
+}
