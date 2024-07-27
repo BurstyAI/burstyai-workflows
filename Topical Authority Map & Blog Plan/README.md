@@ -1,4 +1,4 @@
-# Free Automated Topical Authority Map & Blog Plan
+# [Free Automated Topical Authority Map & Blog Plan](https://burstyai.com)
 
 ## How to Use This Tool
 
