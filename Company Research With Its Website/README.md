@@ -61,7 +61,7 @@ This workflow scrapes a company's website to collect and analyze information. It
 The request body must be a JSON object containing the following field:
 
 - `params`: Object containing the required parameter.
-- `OkIy9G###business_website` (string, required): The URL of the target business website, starting with 'https', e.g., 'https://google.com'.
+  - `OkIy9G###business_website` (string, required): The URL of the target business website, starting with 'https', e.g., 'https://google.com'.
 
 ### Example JSON Request
 
